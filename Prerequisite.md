@@ -18,19 +18,19 @@ to understand the main functionality of the service.
 
 * Once you are satisfied with your service name, and location, and plan, click on create in the bottom-right corner. This creates your Watson Studio instance.
 
-![WatsonStudio](../images/WatsonStudio.gif)
+![WatsonStudio](./images/WatsonStudio.gif)
 
 ### 2. Create Cloud Object Storage service
 To store the data, you need a storage service to be linked with your project later. To do that, search for Storage in the IBM Cloud Catalog or go to the Storage tab from the left menu on the same page and click the Object Storage service.
 
-![CloudObjectStorage](../images/CloudObjectStorageService.png)
+![CloudObjectStorage](./images/CloudObjectStorageService.png)
 
 The lite plan gives you only 1 service. If you get this message that means you already have a service and can use that. If you get the following message, then you already have 1 service in your account.
 
-![CloudObjectStorage](../images/CloudObjectStorageService1.png)
+![CloudObjectStorage](./images/CloudObjectStorageService1.png)
 
 ### 3. Create a Machine Learning Service
 You will also need to provision Watson Machine Learning:
 Open Catalog from top of the page.Under Search type “Machine Learning” and select the Lite plan
 
-![WatsonMachineLearning](../images/WatsonMachineLearning.png)
+![WatsonMachineLearning](./images/WatsonMachineLearning.png)
