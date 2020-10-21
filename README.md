@@ -10,6 +10,7 @@ AutoAI for IBM Watson Studio helps automation of AI development for building mac
 **Watson Machine Learning (WML)** is a platform for deploying models. It supports deployment of AutoAI, SPSS, Decision optimization as well as open source models.
 
 WS and WML support the entire machine learning lifecycle, which we will demonstrate in this lab
+![WSWML](./images/WSWML.gif)
 
 # Learning Objectives
 * Building models without coding
