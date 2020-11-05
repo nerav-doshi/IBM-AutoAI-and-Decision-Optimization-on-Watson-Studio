@@ -1,36 +1,36 @@
-### 1. Create Watson Studio service on IBM Cloud
+# Create AutoAI model
 
-The first step is to set up your IBM Cloud [Watson Studio service](https://cloud.ibm.com/catalog/services/watson-studio). See the video below to help you create your free
-IBM Watson Studio service.
+Watson Studio is an integrated platform designed to organize your project assets, like data sets, collaborators, models, notebooks. You are going to use Watson Studio to create a project in which you train a model with AutoAI and deploy this trained model.
 
-* After logging into IBM Cloud, click `Proceed` to show that you have read your data rights.
+### Step 1. Create a Watson Studio project
+* Click Create a Project.
+* Select Create an empty project.
+* Name your project. If you have a Cloud Lite account, the Object Storage service you created in the previous step will be selected automatically.Otherwise, select a service from the drop-down menu and Click Create.
 
-* Click on `IBM Cloud` in the top left corner to ensure you are on the home page.
+![Step1](./images/Tutorial1-Step1.png)
 
-* Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Type in `Watson Studio` and then click on `Watson Studio` under `Catalog Results`.
+### Step 2. Add data to the project
+- Click the Assets tab. The right-side window shows a load tab.Click the browse link and select the demos.csv file from the folder. Click Open and the file is uploaded in cloud object storage
 
-* This takes you to the Watson Studio service page. There you can name the service as you wish. For example, one may name it
-`Watson-Studio-trial`. You can also choose which data center to create your instance in. The gif above shows mine as
-being created in Dallas.
+![Step2](./images/Tutorial1-Step2.png)
 
-* For this guide, you choose the `Lite` service, which is no-charge. This has limited compute; it is enough
-to understand the main functionality of the service.
+Click demos.csv under Data assets. You can preview the first 1000 rows and all the columns for historical promotion data. Scroll on the right to look at all the columns. This is historical promotion dataset by store location
+where the increase denotes the historical percentage increase in customer demand when there was any promotion. Click the Retail_lab on the top to go back to the project.
 
-* Once you are satisfied with your service name, and location, and plan, click on create in the bottom-right corner. This creates your Watson Studio instance.
+## Step3. Create an AutoAI experiment
 
-![WatsonStudio](./images/WatsonStudio.gif)
+In this step, we will learn to use the IBM AutoAI capability to automatically select and build without coding. In the retail example we would use the increase column from demo dataset to understand the impact of promotion on customer demand.
 
-### 2. Create Cloud Object Storage service
-To store the data, you need a storage service to be linked with your project later. To do that, search for Storage in the IBM Cloud Catalog or go to the Storage tab from the left menu on the same page and click the Object Storage service.
-
-![CloudObjectStorage](./images/CloudObjectStorageService.png)
-
-The lite plan gives you only 1 service. If you get this message that means you already have a service and can use that. If you get the following message, then you already have 1 service in your account.
-
-![CloudObjectStorage](./images/CloudObjectStorageService1.png)
-
-### 3. Create a Machine Learning Service
-You will also need to provision Watson Machine Learning:
-Open Catalog from top of the page.Under Search type “Machine Learning” and select the Lite plan
-
-![WatsonMachineLearning](./images/WatsonMachineLearning.png)
+Click Add to project in the upper-right of the screen. In the asset type screen, click AutoAI experiment
+2. Create the experiment. In this screen, the asset name PromoAutoAI is already filled out. Click
+Create
+3. Now we need to select the data that will be used to train the model.Click Select from
+project. Our project has only one file. Click the demos.csv, then click Select asset
+4. Now let's select the target attribute.In the Select column to predict window Click the scroll
+bar. Click Increase to identify it as the target attribute. You will see a check mark next to
+Increase column
+5. Click Run Experiment. Based on the column selected AutoAI automatically selects the
+optimized metric and starts preparing to build the model
+6. You can see that Auto AI selects the model and on top of it does additional hyper parameter
+optimization and feature engineering on top of it. You can scroll at the bottom to see top
+pipelines that are built. AutoAI selects from more than 44 different models and selects the
