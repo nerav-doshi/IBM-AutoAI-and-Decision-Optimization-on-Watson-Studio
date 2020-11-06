@@ -30,4 +30,4 @@ This tutorial assumes you have an IBM Cloud account. Go to the link below to sig
 # Estimated time
 This tutorial takes approximately 45 minutes to complete.
 
-[Tutorial 1](Tutorial1 - Develop AutoAI Model in Watson Studio/AutoAI_tutorial_readme.md) 
+[Tutorial 1 - Develop AutoAI Model in Watson Studio](Tutorial1/AutoAI_tutorial_readme.md) 
