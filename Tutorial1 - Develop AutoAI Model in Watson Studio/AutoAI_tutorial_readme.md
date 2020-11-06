@@ -77,5 +77,6 @@ We look at saving deploying, testing and generating model scripts
 
 ![Step5](../images/Tutorial1-Step5f.png)
 
+- Click Retail_Lab to go back to the project
 
-- Click Retail_lab to go back to the project
+** This is end of this lab **
