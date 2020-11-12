@@ -59,7 +59,7 @@ We look at saving deploying, testing and generating model scripts
 - Click Promote to Deployment Space. It takes to a screen to select deployment space. If you have not created a deployments pace then you need to create it with machine learning credentials. If you need to tag the space provide a tag and click plus icon on right. Click Promote and you will see the View deployment space window shows up on the right side.
 ![Step5](../images/Tutorial1-Step5b.png)
 
--. You can see the promoted model on the asset tab of deployment space. Click the Deployments arrow icon on the right.
+- You can see the promoted model on the asset tab of deployment space. Click the Deployments arrow icon on the right.
 ![Step5](../images/Tutorial1-Step5c.png)
 
 - Check the deployment type as online. The deployment named needs to be filled out. Click Create. The model is now deployed and it shows up in deployment tab.

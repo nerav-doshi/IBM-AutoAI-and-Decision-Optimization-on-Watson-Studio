@@ -2,7 +2,7 @@
 AutoAI and DO
 
 # Introduction
-AutoAI for IBM Watson Studio helps automation of AI development for building machine learning models. Decision Optimization for Watson Studio brings prescriptive analytics capabilities to the Data Science teams and allows them to combine machine learning with descriptive analytics and deliver bottom-line impact to the business. Let’s examine a business problem for conducting promotion planning. In this example, we look at the historical sales data that shows various product groups and effects on stock before and after promotion. In the 45 minutes for this product tour, we will learn about IBM Auto AI and Decision Optimization modeling assistant capabilities with Watson Studio. These capabilities are available in Watson Studio Premium on Cloud Pak for Data.
+AutoAI for IBM Watson Studio helps automation of AI development for building machine learning models. Decision Optimization for Watson Studio brings prescriptive analytics capabilities to the Data Science teams and allows them to combine machine learning with descriptive analytics and deliver bottom-line impact to the business. Let’s examine a business problem for conducting promotion planning. In this example, we look at the historical sales data that shows various product groups and effects on stock before and after promotion.  The business has to decide which product group should be promoted to maximize predicted sales and minimize promotion cost. In the 45 minutes for this product tour, we will learn about IBM Auto AI and Decision Optimization modeling assistant capabilities with Watson Studio. These capabilities are available in Watson Studio Premium on Cloud Pak for Data.
 
 # Tools
 **Watson Studio (WS)** is a comprehensive data science workbench. It is used to prepare and builds models with your choice of tool and run times. You can build models using open source codes or visual modeling.
@@ -30,4 +30,4 @@ This tutorial assumes you have an IBM Cloud account. Go to the link below to sig
 # Estimated time
 This tutorial takes approximately 45 minutes to complete.
 
-[Tutorial 1 - Develop AutoAI Model in Watson Studio](Tutorial1/AutoAI_tutorial_readme.md) 
+[Tutorial 1 - Develop AutoAI Model in Watson Studio](Tutorial1/AutoAI_tutorial_readme.md)
