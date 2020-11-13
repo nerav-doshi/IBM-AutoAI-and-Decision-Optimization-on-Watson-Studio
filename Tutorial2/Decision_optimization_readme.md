@@ -19,10 +19,11 @@ In this step, we will develop an optimization model
 
 - In the left navigation of the model builder, click Run Model.
 - In the wizard that opens, click Use Modeling Assistant. The modeling assistant has four prebuilt common templates.
-**Scheduling** - The Scheduling domain when you have tasks or activities that you need to schedule, to be done in a given order with specific start and end times
-**Resource Assignment** -  The Resource Assignment domain when you want to assign (or match) resources (workforce, equipment, budget,...) to targets (jobs, events, places), given their respective constraints.
-**Selection & Allocation** - Selection problems are about choosing from a list of possibilities. You can use the Selection and Allocation domain when you have combined all the possible choices you want to consider in one single table
-**Supply & Demand Planning** - This is more geared towards deciding where to source limited resources given demand that needs to be fulfilled.
+
+  **Scheduling** - The Scheduling domain when you have tasks or activities that you need to schedule, to be done in a given order with specific start and end times.
+  **Resource Assignment** -  The Resource Assignment domain when you want to assign (or match) resources (workforce, equipment, budget,...) to targets (jobs, events, places), given their respective constraints.
+  **Selection & Allocation** - Selection problems are about choosing from a list of possibilities. You can use the Selection and Allocation domain when you have combined all the possible choices you want to consider in one single table.
+  **Supply & Demand Planning** - This is more geared towards deciding where to source limited resources given demand that needs to be fulfilled.
 
 To learn more about how to use the templates click [here](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/do/DODS_Mdl_Assist/mdl_asst_domains.html)
 - For our use case we will use Selection & Allocation template. Click Selection & Allocation.
@@ -39,14 +40,10 @@ To learn more about how to use the templates click [here](https://www.ibm.com/su
 
 ![Step2b](../images/Tutorial2-Step2b.gif)
 
-- Next, modify a suggested constraint. The number of storePrediction selection is less than or equal
-to 5. Click 5 and click to make it 60
-11.Now we add a constraint, On the Suggestion section on the right, we have populated each week
-selection is less than or equal to 15. You can click the plus icon next to For each Week, number of
-selections of storePredictions is less than or equal to 15
-12. We add another constraint. On the Suggestion section on the right, total Markdown is less than
-850000. You can click the plus icon next to total Markdown of storePredictions over all
-selections is less than 850000
-13. In the upper-right corner, click Run to send the model to the optimization engine.
-The model runs and you’re presented with the value of the objective function. In the KPI's section,
-you can scroll down and review the kpis table by clicking the Expand icon.
+- Next, modify a suggested constraint. The number of storePrediction selection is less than or equal to 5. We need recommendation for 60 store, promotion combination so we will modify the constraint. Click 5 and click to make it 60.
+- Now we add a constraint, On the Suggestion section on the right, we type *each week selection is less than or equal to 15* You can click the plus icon next to *For each Week, number of selections of storePredictions is less than or equal to 15*.
+- We add another constraint. On the Suggestion section on the right, *total Markdown is less than 850000* You can click the plus icon next to total Markdown of storePredictions over all selections is less than 850000.
+
+![Step2c](../images/Tutorial2-Step2c.gif)
+
+- In the upper-right corner, click Run to send the model to the optimization engine. The model runs and you’re presented with the value of the objective function. In the KPI's section, you can scroll down and review the kpis table by clicking the Expand icon.
