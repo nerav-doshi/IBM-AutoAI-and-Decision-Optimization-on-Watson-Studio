@@ -31,3 +31,5 @@ This tutorial assumes you have an IBM Cloud account. Go to the link below to sig
 This tutorial takes approximately 45 minutes to complete.
 
 [Tutorial 1 - Develop AutoAI Model in Watson Studio](Tutorial1/AutoAI_tutorial_readme.md)
+[Tutorial 2 - Develop Decision Optimization Model in Watson Studio](Tutorial2/Decision_optimization_readme.md)
+[Tutorial 3 - Deploy Decision Optimization Model in Watson Machine Learning](Tutorial3/Deploy_readme.md)

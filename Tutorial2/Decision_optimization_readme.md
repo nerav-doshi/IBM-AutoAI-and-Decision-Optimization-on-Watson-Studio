@@ -103,3 +103,5 @@ To learn more about how to use the templates click [here](https://www.ibm.com/su
 
 - You have the option to generate notebook or deploy the model to Watson machine learning to push optimization model to production.
 ![Step3d](../images/Tutorial2-Step3d.png)
+
+** This is end of this lab **
