@@ -12,11 +12,15 @@ You're ready to start setting up the optimization model and configure the data s
 - Click Create.The model builder is shown, which guides you through the steps in the model creation process. You start with the Select Data step on the right side. Click the browse hyperlink and select the store_predicted file.
 - Click Import to import the selected data files into the project.You’re now in the Prepare data step in the model builder. In this step, you can review and edit the imported data files.
 
-++Input Data++
+__Input Data__
 ProdStorePk	- record id
+
 Class	- Product type
+
 discount - discount percentage
+
 Holiday	- identifies if promotion is for a holidays or regular promotion
+
 PackSize - product packaging
 Week - Week number
 Location - Store locations
