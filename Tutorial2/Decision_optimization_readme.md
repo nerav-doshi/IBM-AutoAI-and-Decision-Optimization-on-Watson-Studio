@@ -97,6 +97,9 @@ To learn more about how to use the templates click [here](https://www.ibm.com/su
 
 ![Step3b](../images/Tutorial2-Step3b.png)
 
-- Click Visualization. Click on pencil icon on right-side. Click Json tab and delete the content. Copy the content from visualization.json file located [here]()
+- Click Visualization. Click on pencil icon on right-side. Click Json tab and delete the content. Copy the content from visualization.json file located [here](https://github.com/nerav-doshi/IBM-AutoAI-and-Decision-Optimization-on-Watson-Studio/blob/main/Tutorial2/data/visualization.json) and paste it here. You will see Input and Scenario comparsion tab populated with charts. One can use the dashboard to analyze results.
 
 ![Step3c](../images/Tutorial2-Step3c.gif)
+
+- You have the option to generate notebook or deploy the model to Watson machine learning to push optimization model to production.
+![Step3d](../images/Tutorial2-Step3d.png)
