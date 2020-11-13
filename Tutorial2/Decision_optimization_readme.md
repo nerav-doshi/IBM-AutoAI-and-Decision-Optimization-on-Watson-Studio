@@ -8,7 +8,7 @@
 
 You're ready to start setting up the optimization model and configure the data set and create an initial optimization model that you can run.
 
-- Click the Add to Project button in the top-right corner. A window with all services and you can click the Decision Optimization Experiments tile. Give it a name. For the purposes of this demo, the name *PromotionOptimization*
+- Click the Add to Project button in the top-right corner. A window with all services and you can click the Decision Optimization Experiments tile. Give it a name. Select deployment space. If there is no deployment space associated than you will be asked to create one.For the purposes of this demo, the name *PromotionOptimization*
 - Click Create.The model builder is shown, which guides you through the steps in the model creation process. You start with the Select Data step on the right side. Click the browse hyperlink and select the store_predicted file.
 - Click Import to import the selected data files into the project.You’re now in the Prepare data step in the model builder. In this step, you can review and edit the imported data files.
 
