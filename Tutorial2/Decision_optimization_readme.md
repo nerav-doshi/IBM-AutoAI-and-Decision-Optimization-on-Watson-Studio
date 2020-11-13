@@ -13,25 +13,36 @@ You're ready to start setting up the optimization model and configure the data s
 - Click Import to import the selected data files into the project.You’re now in the Prepare data step in the model builder. In this step, you can review and edit the imported data files.
 
 __Input Data__
-ProdStorePk	- record id
 
-Class	- Product type
+**ProdStorePk**	- record id
 
-discount - discount percentage
+**Class**	- Product type
 
-Holiday	- identifies if promotion is for a holidays or regular promotion
+**discount** - discount percentage
 
-PackSize - product packaging
-Week - Week number
-Location - Store locations
-PromoCost - Cost of promoting the product class for that week
-PromotionID - promotion identifier
-stockonHand - Qty on hand
-priceSell - Selling price of the product class
-pricediscount - Discounted price of the product class
-predictedIncrease - Increase or decrease in demand for promotion
-predictedSales - predicted sales for product class
-Markdown - Markdown cost if sold at pricediscount( predicted sales * pricediscount)
+**Holiday**	- identifies if promotion is for a holidays or regular promotion
+
+**PackSize** - product packaging
+
+**Week** - Week number
+
+**Location** - Store locations
+
+**PromoCost** - Cost of promoting the product class for that week
+
+**PromotionID** - promotion identifier
+
+**stockonHand** - Qty on hand
+
+**priceSell** - Selling price of the product class
+
+**pricediscount** - Discounted price of the product class
+
+**predictedIncrease** - Increase or decrease in demand for promotion
+
+**predictedSales** - predicted sales for product class
+
+**Markdown** - Markdown cost if sold at pricediscount( predicted sales * pricediscount)
 
 ![Step1](../images/Tutorial2-Step1.gif)
 
@@ -76,3 +87,16 @@ To learn more about how to use the templates click [here](https://www.ibm.com/su
 ![Step2d](../images/Tutorial2-Step2d.gif)
 
 ### Step 3. Create Scenario and compare solution
+
+- Click Scenarios on top right. A panel opens with Scenario1. Click on three dots Rename and give it a name example:*PromoSelection*
+![Step3](../images/Tutorial2-Step3.png)
+![Step3a](../images/Tutorial2-Step3a.png)
+
+-  Click on three dots of PromoSection scenario. Click Duplicate and give it a name example:*PromoSelection2*
+- - Now we add a constraint, On the Suggestion section on the right, we type *predictedIncrease is less or equal to 10* You can click the plus icon next to *No selection of predictedIncrease is greater or equal to 0*. We add this constraint to select only product class where demand might decrease than stock on hand so that we can promote those product class.Click Run to solve this scenario and explore solution.
+
+![Step3b](../images/Tutorial2-Step3b.png)
+
+- Click Visualization. Click on pencil icon on right-side. Click Json tab and delete the content. Copy the content from visualization.json file located [here]()
+
+![Step3c](../images/Tutorial2-Step3c.gif)
